@@ -29,4 +29,5 @@ int main(int argc, char *argv[]){
 	yylex();
 	printf("Total words: %d\nTotal characters: %d\nTotal lines: %d\n",number_of_words, characters, lines);
 
-}
+}        yylex();
+
