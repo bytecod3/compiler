@@ -6,19 +6,19 @@ Make sure you have Flex and GCC or any other C compiler installed.
 
 Run the following command to install flex
 
-'''bash
+```bash
 sudo apt-get install -y flex
 
-'''
+```
 
 ### Compile and run
-'''bash
+```bash  
 flex yourlex.l
 gcc lex.yy.c -lfl
-'''
+```
 If no errors, run
-'''bash
+```bash  
 ./a.out
-'''
+```
 
 
